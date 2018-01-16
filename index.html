@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora IMC</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">  
+  <link rel="stylesheet" href="css/estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  
+  <div class="container">
+    
+    <div class="card altura">
+      <label for="altura">Altura em metros</label>
+      <input type="number" id="altura" name="altura">
+    </div>
+
+    <div class="card peso">
+      <label for="peso">Peso em quilos</label>
+      <input type="number" id="peso" name="peso">
+    </div>
+
+    <div class="dinamico">
+      <button class="botaoIMC">IMC</button>
+      
+       <div class="resultado escondido">
+        <a href="#" class="voltar">
+          <span>Voltar</span>
+        </a>
+        <div class="texto">
+          <p class="imcValor">41,8</p>
+          <small class="imcDesc">Obesidade Mórbida</small>
+        </div>
+      </div>
+      
+    </div>
+        
+  </div>
+  
+  <script src="js/comportamento.js"></script>
+
+</body>
+</html>

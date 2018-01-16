@@ -1,0 +1,105 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  height: 240px;
+  text-align: left;
+}
+
+.card label {
+  display: block;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;  
+}
+
+.card input {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;  
+  font-size: 100px;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  margin-top: 25px;
+  
+}
+
+.card.altura {
+  background-color: #3498DB;
+}
+
+.card.peso {
+  background-color: #34495E;
+}
+
+button {
+  width: 90%;
+  font-size: 72px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  padding: 25px;
+  margin-top: 15px;
+  border: none;
+  background-color: #27AE60;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 6px 0px 0 #245B3B;
+  cursor: pointer;
+}
+
+.resultado {
+  display: flex;
+  margin-top: 35px;
+}
+
+.resultado a {
+  background-image: url("../img/voltar.png");
+  background-repeat: no-repeat;
+  background-position: center 13px;
+  width: 120px;
+}
+
+.resultado .texto {
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  color: #4A4A4A;
+  text-transform: uppercase;
+}
+
+.resultado .texto p {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.resultado .texto small {
+  font-size: 24px;
+}
+
+.resultado a span {
+  visibility: hidden;
+}
+
+
+.resultado p {
+  margin: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  color: #4A4A4A;
+  text-align: left;
+}
+
+.escondido {
+  display: none;
+}
